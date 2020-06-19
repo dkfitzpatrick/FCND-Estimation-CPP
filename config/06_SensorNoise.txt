@@ -1,7 +1,7 @@
 ### STUDENT SECTION
 
-MeasuredStdDev_GPSPosXY = 2
-MeasuredStdDev_AccelXY = .1
+MeasuredStdDev_GPSPosXY = 0.6937
+MeasuredStdDev_AccelXY = 0.5013
 
 ### END STUDENT SECTION
 
@@ -13,6 +13,8 @@ INCLUDE QuadControlParams.txt
 # simulation setup
 Sim.RunMode = Repeat
 Sim.EndTime = 10
+# Sim.RunMode = Once
+# Sim.EndTime = 120
 Sim.Vehicle1 = Quad
 
 # Controller selection
